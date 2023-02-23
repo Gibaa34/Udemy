@@ -33,6 +33,7 @@ public class TestDataBuild {
 
     public String deletePlacePayload (String placeId) {
 
+        System.out.println("{\"place_id\":\""+placeId+"\"}");
         return "{\"place_id\":\""+placeId+"\"}";
 
     }
